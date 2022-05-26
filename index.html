@@ -408,6 +408,28 @@
                 </li>
             </ul>
             </div>
+            <div class="footer-email-div">
+                <h3 class="footer-title">ПОДПИШИТЕСЬ НА РАССЫЛКУ</h3>
+                
+                <form class="footer-email-form">
+                    <label class="footer-form-field">
+                        <input 
+                        name="user_email" 
+                        class="footer-form-input" 
+                        type="email" 
+                        required 
+                        placeholder="E-mail"
+                        />
+                    </label>
+                        <button class="telegram-follow"> 
+                        <p class="telegram-follow-title">Подписаться</p>
+                        <svg class="telegram-follow-icon" width="24" height="24">
+                            <use href="./img/sprite.svg#icon-icon-send"></use>
+                        </svg>
+                        </button>
+                </form>
+            
+            </div>
         </div>
         
     </footer>
@@ -418,8 +440,51 @@
     <use href="./img/sprite.svg#icon-Vector" width="18" height="18" ></use>
 </svg>
 </button>
+<h3>Оставьте свои данные, мы вам перезвоним</h3>
+<form>
+    <label>
+        Имя
+        <input 
+        name="user_name"
+        class="footer-form-input" 
+        type="text"
+        required 
+        placeholder="E-mail"
+        />
+    </label>
+    <label>
+        Телефон
+        <input 
+        name="user_phone" 
+        class="footer-form-input" 
+        type="text"
+        required 
+        placeholder="E-mail"
+        />
+    </label>
+    <label>
+        Почта
+        <input 
+        name="user_email"
+        class="footer-form-input" 
+        type="text"
+        required 
+        placeholder="E-mail"
+        />
+    </label>
+    <label>
+        Комментарий
+    <textarea
+        name="user_message"
+        class="contact-form-message"
+        placeholder="Введите текст"
+    ></textarea>
+    </label>
+</form>
 </div>
+
 </div>
+
 <script src="./js/modal.js"></script>
 </body>
 </html>
