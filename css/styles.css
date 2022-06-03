@@ -678,20 +678,18 @@ margin-bottom: 20px;
     border-color: var(--accent-color);
     margin: 0;
     padding: 10px 28px;
-}
-    
-
-.telegram-follow-title{
-    margin-right: 10px;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.875; 
     letter-spacing: 0.06em;    
     color: var(--special-title-color); 
-    margin-right: 12px;
 }
+    
+
+
 .telegram-follow-icon{
     fill:var(--special-title-color);
+    margin-left: 12px;
 }
 
 /* end footer*/
@@ -886,8 +884,11 @@ margin-bottom: 20px;
    
 }
 .close-icon{
-    width: 18px;
-    height: 18px;
+    width: 12px;
+    height: 12px;
+}
+.close-icon:focus, .close-icon:hover {
+    fill:var(--accent-color);
 }
 
 .hero-form-title{
@@ -933,8 +934,8 @@ margin-bottom: 20px;
     fill:var(--accent-color);
 }
 .hero-form-icon{
-    width: 18px;
-    height:18px;
+    width: 12px;
+    height:12px;
     position: absolute;
     display: block;
     top:50%;
@@ -976,7 +977,8 @@ margin-bottom: 20px;
        
 }
 .hero-form-input-checkbox:focus + .hero-form-field-checkbox::before{
-    outline: #2196F3;
+    outline: none;
+    border-color: #2196F3;
   
 }
 .hero-form-field-checkbox{
@@ -997,6 +999,7 @@ margin-bottom: 20px;
     border-radius: 2px;
     cursor: pointer;
     margin-right: 10px;
+    
 }
 
 .visually-hiden{
@@ -1030,4 +1033,7 @@ margin-bottom: 20px;
     border-radius: 4px;
     width: 200px;
     height: 50px;
+}
+.policy-checkbox-title {
+    color: var(--accent-color);
 }
